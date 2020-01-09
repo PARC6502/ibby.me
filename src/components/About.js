@@ -1,13 +1,13 @@
 import React from 'react';
-import { FaCloudDownload } from 'react-icons/lib/fa';
+import { FaCloudDownload } from 'react-icons/fa';
 
-import profilePic from '../assets/images/profilepic.jpg';
+import ProfilePic from '../assets/images/profilePic.jpg';
 
 const About = () => (
   <section id="about">
     <div className="row">
       <div className="three columns">
-        <img className="profile-pic" src={profilePic} alt="" />
+        <img className="profile-pic" src={ProfilePic} alt="" />
       </div>
       <div className="row">
         <div className="four columns">

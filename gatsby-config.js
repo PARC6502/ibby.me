@@ -6,7 +6,7 @@ module.exports = {
     description:
       "Ibby's personal site - an overview of the stuf I do",
     keywords:
-      'Ibby EL-Serafy, Ibby, QuantumBaking, Foodhall, Polecrobat',
+      'Ibby EL-Serafy, Ibby, QuantumBaking, Foodhall, Polecrobat, theibbster',
   },
   pathPrefix: '/',
   plugins: [
@@ -27,6 +27,14 @@ module.exports = {
           windows: false,
         },
       },
+    },
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: /assets\/images\/svg-icons/
+        }
+      }
     },
     {
       resolve: `gatsby-plugin-typography`,

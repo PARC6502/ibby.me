@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaPlus, FaTag } from 'react-icons/lib/fa';
+import { FaPlus, FaTag } from 'react-icons/fa';
 
 import Quantumbaking from '../assets/images/portfolio/quantumbaking.png';
 import Foodhall from '../assets/images/portfolio/foodhall.jpg';
